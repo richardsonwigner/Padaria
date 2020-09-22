@@ -20,7 +20,7 @@ class Mostrar
   }
   public void Frete(Estoque E){
     if(E.total < 20){
-      frete = 5;
+      frete = 3;
       Console.WriteLine("Seu frete total é {0}R$",frete);
     }
     else{

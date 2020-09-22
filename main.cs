@@ -17,7 +17,11 @@ class MainClass{
       Console.WriteLine("digite s para continuar e digite n para encerrar");
       y = Console.ReadLine();
     }
-    mostrar();
+    if (E.total > 0){
+      mostrar();}
+    else{
+      Console.WriteLine("PEDIDO INVÁLIDO");
+    }
   }
 
   public static void estoque(int Pedido){
@@ -32,7 +36,7 @@ class MainClass{
      }
     
   }
-    public static void mostrar(){ 
+    public static void mostrar()  { 
       M.QtdPedido(E);
       M.Frete(E);
       M.T(E);
