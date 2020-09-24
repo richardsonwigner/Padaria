@@ -28,7 +28,8 @@ class Mostrar
       Console.WriteLine("Frete Grátis");
     }
   }
-  public void T(Estoque E) {
+  public void T(Estoque E,string Nome) {
    Console.WriteLine("Seu pedido total é {0}R$",E.total + frete);
+   Console.WriteLine("Nome do Cliente:{0}",Nome);
   }
 }
