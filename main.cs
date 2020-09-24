@@ -4,7 +4,7 @@ class MainClass{
   static Mostrar M = new Mostrar();
   static Estoque E = new Estoque();
   public static void Main (string[] args) {
-  string Nome = " "; 
+  string Nome=""; 
   string z = "n";
   while (z =="n"){
     Console.WriteLine("Digite seu nome");
