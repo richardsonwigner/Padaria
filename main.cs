@@ -8,7 +8,7 @@ class MainClass{
   string z = "n";
   while (z =="n"){
     Console.WriteLine("Digite seu nome");
-    Nome = (Console.ReadLine());
+    Nome = Console.ReadLine();
     Console.WriteLine("Confirma seu nome?s/n");
     Console.WriteLine(Nome);
     z = Console.ReadLine();}

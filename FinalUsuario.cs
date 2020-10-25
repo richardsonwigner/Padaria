@@ -15,7 +15,7 @@ class Mostrar
       Console.WriteLine("Você pediu um total de {0} Pizza(s)",E.QtdPizza);
     }
     if(E.QtdBiscoito> 0){
-      Console.WriteLine("Você pediu um total de {0}Biscoito(s)",E.QtdBiscoito);
+      Console.WriteLine("Você pediu um total de {0} Biscoito(s)",E.QtdBiscoito);  
     }
   }
   public void Frete(Estoque E){
